@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form de BootStrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <form class="row gy-4 gx-4 justify-content-center">
+            <h1>Personal information : </h1>
+    
+        <div class="col-md-4">
+            <label class="visually-hidden" for="autoSizingInputGroup">Amount</label>
+            <div class="input-group">
+              <div class="input-group-text">$</div> 
+              <input type="number" class="form-control" id="autoSizingInputGroup" placeholder="Amount">
+              <div class="input-group-text">.00</div>
+            </div>
+          </div>
+        <div class="col-md-4">
+          <label class="visually-hidden" for="autoSizingInputGroup">email</label>
+          <div class="input-group">
+            <div class="input-group-text">@</div>
+            <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="email">
+          </div>
+        </div>
+        <div class="col-md-4 ">
+            <label class="visually-hidden" for="autoSizingInputGroup">Amount</label>
+            <div class="input-group">
+              <div class="input-group-text">$</div> 
+              <input type="number" class="form-control" id="autoSizingInputGroup" placeholder="Amount">
+              <div class="input-group-text">.00</div>
+            </div>
+          </div>
+          <section class="row gy-4 gx-4  justify-content-center">
+            <div class="col-md-6">
+                <label for="autoSizingInputGroup">Age</label>
+                <div class="input-group">
+                <input type="number" class="form-control" id="autoSizingInputGroup" placeholder="please enter age">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="autoSizingInputGroup">sex</label>
+                <div class="input-group">
+                <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="please enter sex">
+                </div>
+            </div>
+            <div class="col-md-12">
+                <label for="autoSizingInputGroup">Address</label>
+                <div class="input-group">
+                    <textarea class="form-control" aria-label="please enter address" placeholder="please enter address" required></textarea>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <label for="autoSizingInputGroup">Country</label>
+                <div class="input-group">
+                <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="please enter country">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="autoSizingInputGroup">State</label>
+                <div class="input-group">
+                <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="please enter state">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="autoSizingInputGroup">City</label>
+                <div class="input-group">
+                <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="please enter city">
+                </div>
+            </div>
+        </section>
+        <section class="row gy-4 gx-4  justify-content-center">
+            <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Is active
+                  </label>
+                  <div class="invalid-feedback">
+                    You must active.
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-outline-secondary" type="submit">Submit </button>
+              </div>
+        </section>
+      </form>
+    <script src="js/bootstrap.bundle.js"></script> 
+    
+</body>
+</html>

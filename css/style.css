@@ -1,0 +1,18 @@
+/* [class^="col"] {
+    background-color: lightgrey;
+    outline: 1px solid grey
+}
+header,
+footer,
+.slideshow,
+.about,
+.testimonial {
+    background-color: #000;
+    color: #fff;
+}
+header,
+footer,
+section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+} */
